@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,400&display=swap');
 
 :root {
-    primary-color: blue
+    --primary-color:#0369a1;
+    --bluish: #bfdbfe;
+    --off-white: #e2e8f0;
 }
 
 hr {margin: 2rem 0rem}
@@ -9,6 +11,7 @@ hr {margin: 2rem 0rem}
 body {
     font-family: 'Barlow', 
     sans-serif;
+    margin: 0px;
 }
 
 /* container */
@@ -27,20 +30,21 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
 }
 
 .link-primary {
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    color: white
+    padding:0.5rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    padding:0.5rem;
+    border: 1px solid var(--primary-color);
 }   
 
 /* look into BEM naming convention for CSS */
@@ -64,6 +68,7 @@ body {
 
 .navigation .nav-kickass {
     text-align: right;
+    padding-right: 2rem;
 }
 
 .navigation .nav-pills {
@@ -71,7 +76,7 @@ body {
 }
 
 .navigation .link {
-    color: white
+    color: white;
 }
 .navigation .link-active {
     font-weight: bold;
@@ -86,4 +91,55 @@ body {
     display: block ;
     margin: auto ;
 
+}
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: black;
+    text-align: center;
+
+}
+
+.hero .hero-heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--bluish)
+}
+
+.g {
+    background-color: var(--off-white)
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align:center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+a {
+    color: white;
+}
+
+li {
+    text-align: center;
+}
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px ;
 }
