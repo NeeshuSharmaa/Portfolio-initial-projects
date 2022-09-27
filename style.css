@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,400&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,300&display=swap');
 
 :root {
-    --primary-color:#0369a1;
+    --primary-color:white;
     --bluish: #bfdbfe;
     --off-white: #e2e8f0;
+    --pinkish: #db2777;
+    --light-black: #161616;
 }
 
 hr {margin: 2rem 0rem}
 
 body {
-    font-family: 'Barlow', 
+    font-family: 'Open Sans', 
     sans-serif;
+    background-color: white;
     margin: 0px;
 }
 
@@ -21,7 +24,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -33,9 +36,10 @@ body {
     padding: 0.5rem 1rem;
 }
 
+
 .link-primary {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--pinkish);
     border-radius: 0.5rem;
     padding:0.5rem;
 }
@@ -62,71 +66,86 @@ body {
 /* navigation */
 .navigation {
     background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-}
-
-.navigation .nav-kickass {
-    text-align: right;
-    padding-right: 2rem;
+    color: black;
+    width: 100%;
+    height: 10px;
+    padding-bottom:2rem;
 }
 
 .navigation .nav-pills {
     text-align: right
 }
 
+
 .navigation .link {
-    color: white;
+    padding:2rem;
+    color: black;
 }
 .navigation .link-active {
     font-weight: bold;
 }
 
-.hero {
-    padding: 2rem
-}
-
-.hero .hero-img {
-    max-width: 350px ;
-    display: block ;
-    margin: auto ;
-
-}
-.hero .hero-heading {
+.hero-box {
     padding-top: 1rem;
-    color: black;
-    text-align: center;
-
+    padding-bottom: 1rem;
+    background-color: black;
+    height: 30 px;
+    width: 100%;
 }
 
-.hero .hero-heading-inverted {
-    color: var(--primary-color);
+.hero-box .hero-img {
+    max-width: 350px ;
+    margin: left ;
+
 }
+.hero-box .hero-heading {
+    font-size: 45px;
+    color: white;
+    padding-left: 5rem;
+    text-align:left;
+}
+.hero-box .i-am {
+    font-size: 60px;
+    color: white;
+}
+
+.hero-box .hero-heading-name {
+    font-size:60px;
+    color: var(--pinkish);
+}
+
+.container-below-hero {
+    padding-left:80px;
+    float:right;
+}
+
 
 .section {
-    padding: 2rem;
+    padding: 1rem 5rem;
+    float:left;
 }
 
-.section h3 {
+.section h2 {
     text-align: center;
 }
 
 .ow {
-    background-color: var(--bluish)
+    background-color: var(--bluish);
+    text-align:center;
 }
 
 .g {
-    background-color: var(--off-white)
+    background-color: var(--off-white);
+    text-align: center;
 }
 
 
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--pinkish);
     padding: 2rem 1rem;
     text-align:center;
     color: white;
     border-top-right-radius: 1rem;
-
 }
 
 a {
