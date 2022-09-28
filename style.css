@@ -2,14 +2,13 @@
 
 
 :root {
-    --primary-color:white;
-    --bluish: #bfdbfe;
-    --off-white: #e2e8f0;
-    --pinkish: #db2777;
-    --light-black: #161616;
-}
+    --primary-color:#9ce404;
+    --lime:#ccf35d;
+    --dark-green:#679f09;
+    --light-black:#233635;
+    --off-white:#f6f8f2;
 
-hr {margin: 2rem 0rem}
+}
 
 body {
     font-family: 'Open Sans', 
@@ -21,7 +20,7 @@ body {
 /* container */
 
 .container {
-    padding: 0rem 1 rem;
+    padding: 2rem 1 rem;
 }
 
 .container-center {
@@ -113,23 +112,29 @@ body {
 
 .hero-box .hero-heading-name {
     font-size:60px;
-    color: var(--pinkish);
+    color: var(--lime);
 }
 
+.hero-img {
+    height:10px;
+    width:10px;
+}
 .section {
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
 }
 
-.section h2 {
+.section h3 {
     text-align: center;
 }
 
-.ow {
-    background-color: var(--bluish);
+.lime {
+    padding:1rem 2rem;
+    background-color: var(--lime);
     text-align:center;
 }
 
-.g {
+.ow {
+    padding:1rem 2rem;
     background-color: var(--off-white);
     text-align: center;
 }
