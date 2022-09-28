@@ -40,7 +40,7 @@ body {
 
 
 .link-primary {
-    background-color: black;
+    background-color:#9f1239;
     color: white;
     padding:1rem 2rem;
     border:1rem;
@@ -119,7 +119,7 @@ body {
 
 .hero-box .hero-heading-name {
     font-size:60px;
-    color: var(--light-lime);
+    color:#9f1239;
 }
 
 .hero-img {
@@ -140,7 +140,7 @@ body {
 
 .white {
     padding:1rem 3rem 2rem 2rem;
-    background-color: var(--lime);
+    background-color:#fb7185;
     text-align:center;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -155,7 +155,7 @@ body {
 }
 .pink {
     padding:1rem 2rem;
-    background-color: var(--light-lime);
+    background-color: var(--cream);
     text-align: center;
     border-top-left-radius: 50px ;
     border-bottom-right-radius: 50px;
@@ -180,7 +180,7 @@ li {
 
 footer{
     background-color: black;
-    color: var(--light-lime);
+    color: var(--cream);
 }
 .footer .link {
     color: white;
