@@ -2,11 +2,13 @@
 
 
 :root {
-    --primary-color:#9ce404;
-    --lime:#ccf35d;
-    --dark-green:#679f09;
-    --light-black:#233635;
-    --off-white:#f6f8f2;
+    --cream:#f7cbae;
+    --brown: #b5665e;
+    --light-lime: #e3fb94;
+    --green: #9ce404;
+    --lime:#9ce404;
+
+    
 
 }
 
@@ -38,10 +40,13 @@ body {
 
 
 .link-primary {
-    background-color: var(--primary-color);
-    color: var(--pinkish);
-    border-radius: 0.5rem;
-    padding:0.5rem;
+    background-color: black;
+    color: white;
+    padding:1rem 2rem;
+    border:1rem;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    
 }
 
 .link-secondary {
@@ -65,12 +70,13 @@ body {
 
 /* navigation */
 .navigation {
-    /* background-color: var(--primary-color); */
-    background-image: url("īmages\texturedbg.jpg");
+    background-color: white; 
     color: black;
     width: 100%;
     height: 10px;
     padding-bottom:2rem;
+    margin:0px;
+    
 }
 
 .navigation .nav-pills {
@@ -87,11 +93,12 @@ body {
 }
 
 .hero-box {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     background: black;
     max-height: 30 px;
     width: 100%;
+    border-bottom-right-radius:50px ;
 }
 
 .hero-box .hero-img {
@@ -112,12 +119,16 @@ body {
 
 .hero-box .hero-heading-name {
     font-size:60px;
-    color: var(--lime);
+    color: var(--light-lime);
 }
 
 .hero-img {
-    height:10px;
-    width:10px;
+    height:210px;
+    width:210px;
+    border-radius:70rem;
+    float:right;
+    padding-right:0;
+    border: 5px solid white;
 }
 .section {
     padding: 2rem 5rem;
@@ -127,16 +138,27 @@ body {
     text-align: center;
 }
 
-.lime {
-    padding:1rem 2rem;
+.white {
+    padding:1rem 3rem 2rem 2rem;
     background-color: var(--lime);
     text-align:center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .ow {
     padding:1rem 2rem;
-    background-color: var(--off-white);
+    background-color: white;
     text-align: center;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
+}
+.pink {
+    padding:1rem 2rem;
+    background-color: var(--light-lime);
+    text-align: center;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px;
 }
 
 
@@ -155,10 +177,26 @@ a {
 li {
     text-align: center;
 }
+
+footer{
+    background-color: black;
+    color: var(--light-lime);
+}
 .footer .link {
     color: white;
 }
 
 .footer ul {
     padding-inline-start: 0px ;
+    padding-top: 1rem;
+}
+
+.footer img {
+    width:50px;
+    height:50px;
+    padding-bottom: 0.5rem;
+}
+
+.footer-txt-content {
+    color:white;
 }
