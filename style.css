@@ -198,6 +198,7 @@ footer{
     color: white;
     padding: 0.5rem 1rem;
     border-radius:1rem;
+    border-width: 0px;
 
 }
 
@@ -206,6 +207,7 @@ footer{
     color: black;
     padding: 0.5rem 1rem;
     border-radius:1rem;
+    border-width: 0px;
 
 }
 
