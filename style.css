@@ -155,3 +155,46 @@ footer{
 .footer-txt-content {
     color:white;
 }
+
+/* projects styling */
+
+.f-container {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.f-item{
+    color: white;
+    background: black;
+    padding: 2rem;
+    margin:2rem;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.f-item h3 {
+    color: var(--light-pink);
+}
+
+#live-project {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius:1rem;
+
+}
+
+.project-description {
+    font-style:italic;
+}
+#source-code {
+    background-color: var(--cream);
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius:1rem;
+
+}
