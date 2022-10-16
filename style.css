@@ -107,9 +107,9 @@ header{
     /* padding:0rem 1rem; */
     color: white;
 }
-.navigation .link:active {
+.navigation .link-active{
     font-weight: bold;
-    color:var(--primary-color);
+    color:var(--dark-blue);
 }
 /* Main about paragraph */
 .header-content {
@@ -272,12 +272,12 @@ footer{
 }
 .projects-btn {
     background-color: white;
-    color: var(--dark-blue);
+    color: var(--blue);
     padding: 0.5rem 1rem;
     margin:2rem 0rem 0rem 0rem;
     border-radius:0.2rem;
     text-decoration: none;
-    font-weight:900;
+    font-weight:400;
 }
 
 
