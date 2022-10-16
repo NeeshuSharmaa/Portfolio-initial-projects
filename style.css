@@ -186,14 +186,9 @@ footer{
     text-align: center;
     height: 15rem;
     width: 15rem;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
-.btn-container{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    margin:0.5rem;
-}
+
 .f-item h3 {
     color: var(--blue);
 }
