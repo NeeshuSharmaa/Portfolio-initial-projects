@@ -8,7 +8,7 @@
     --blue:#749cc6;
     --dark-blue:#3b75b3;
     --light-blue:rgb(239, 240, 245);
-    --grey:#cbd0d6;
+    --grey:#cdd5df;
 
 }
 body {
@@ -19,12 +19,39 @@ body {
     padding: 0px;
     height: 100%
 }
+header{
+    padding:1rem;
+}
+.hero-img{
+    width:550px;
+    max-width: 80%;
+}
 .heading-of-page {
     color: black;
     text-align: center;
     margin-top: 2rem;
     font-weight:bolder;
+    
 }
+/* general styling */
+.blue-text{
+    color:var(--dark-blue);
+}
+.name {
+    color:var(--primary-color);
+}
+.general-pm{
+    margin:0rem 2rem 0rem 2rem;
+}
+.light-blue-box{
+    padding:1rem 3rem 2rem 2rem;
+    background-color:var(--light-blue);
+    text-align:center;
+    margin: 2rem 2rem ;
+    border-radius: 1rem;
+
+}
+
 /* lists */
 .list-non-bullet{
     list-style-type:none;
@@ -63,73 +90,42 @@ body {
 }   
 
 
-/* navigation */
+/* navigation bar*/
 .navigation {
     background-color: black; 
     color: white;
     width: 100%;
-    height: 10px;
-    padding-bottom:2rem;
-    margin:0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    
+    padding:1rem;
 }
 
 .navigation .nav-pills {
-    padding: 0.5rem;
+    padding: 1rem;
+    text-align:right;
 }
 
 .navigation .link {
-    padding:0rem rem;
+    /* padding:0rem 1rem; */
     color: white;
 }
-.navigation .link-active {
+.navigation .link:active {
     font-weight: bold;
+    color:var(--primary-color);
 }
-
-
-header img{
-    width:600px;
-    height:500px;
-}
+/* Main about paragraph */
 .header-content {
     color: black;
     font-size:3rem;
-}
-.name {
-    color:var(--primary-color);
-}
-.section {
-    padding: 2rem 5rem;
-}
-
-.section h3 {
-    text-align: center;
-}
-.pink-outer-box {
-    padding:1rem 3rem 2rem 2rem;
-    background-color:var(--light-pink);
     text-align:center;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-.cream-inner-box {
-    padding:1rem 2rem;
-    background-color: var(--cream);
-    text-align: center;
-    border-top-left-radius: 50px ;
-    border-bottom-right-radius: 50px;
 }
 
-.white-inner-box {
-    padding:1rem 2rem;
-    background-color: white;
-    text-align: center;
-    border-top-left-radius: 50px ;
-    border-bottom-right-radius: 50px;
+
+.about-para{
+    margin:2rem 2rem 1rem 2rem;
+    padding-top:1rem;
+    text-align:center;
 }
+
+
 
 footer {
     background-color: var(--pinkish);
@@ -150,6 +146,7 @@ li {
 footer{
     background-color: black;
     color: var(--cream);
+    padding:2rem 2rem 1rem 2rem;
 }
 .footer .link {
     color: white;
@@ -158,15 +155,16 @@ footer{
 .footer ul {
     padding-inline-start: 0px ;
     padding-top: 1rem;
+    padding-bottom:1rem;
 }
 
 .footer img {
     width:40px;
     height:40px;
-    padding-bottom: 0.5rem;
+    padding-top:0.2rem;
+    padding-bottom: 0.2rem;
 }
-
-.footer-txt-content {
+.footer-txt-content{
     color:white;
 }
 
@@ -223,14 +221,33 @@ footer{
     flex-wrap:wrap;
     flex-direction: row;
     margin: 2rem;
-    justify-content: center;;
+    justify-content: center;
 }
 .blog-box-cream {
-    padding:1rem 3rem 2rem 2rem;
+    padding:1rem 3rem 2rem 3rem;
     background-color:var(--light-blue);
     text-align:center;
     margin: 2rem 2rem ;
+    border-radius: 0.5rem;
+    
+    
+}
+.blog-box-grey {
+    padding:1rem 3rem 2rem 2rem;
+    background-color:var(--grey);
+    text-align:center;
+    margin: 2rem 2rem ;
     border-radius: 1rem;
+    
+}
+.blog-box-blue {
+    padding:1rem 3rem 2rem 3rem;
+    background-color:var(--dark-blue);
+    text-align:center;
+    margin: 0.4rem 2rem 1rem 2rem ;
+    color:white;
+    font-weight:300;
+    border-radius: 0.5rem;
     
 }
 
@@ -243,15 +260,23 @@ footer{
     margin:2rem 0rem 0rem 0rem;
     border-radius:0.1rem;
     text-decoration: none;
-
-
 }
-.blog-box-blue {
-    padding:1rem 3rem 2rem 2rem;
-    background-color:var(--grey);
-    text-align:center;
-    margin:2rem 2rem;
-    border-radius: 1rem;
+.blogs-btn {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 0.5rem 1rem;
+    margin:2rem 0rem 0rem 0rem;
+    border-radius:0.2rem;
+    text-decoration: none;
+}
+.projects-btn {
+    background-color: white;
+    color: var(--dark-blue);
+    padding: 0.5rem 1rem;
+    margin:2rem 0rem 0rem 0rem;
+    border-radius:0.2rem;
+    text-decoration: none;
+    font-weight:900;
 }
 
 
