@@ -184,8 +184,7 @@ footer{
     padding: 2rem;
     margin:2rem;
     text-align: center;
-    height: 15rem;
-    width: 20rem;
+    max-width: 25rem;
     border-radius: 1rem;
 }
 
