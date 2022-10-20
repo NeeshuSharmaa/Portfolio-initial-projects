@@ -172,7 +172,7 @@ footer{
 
 .f-container {
     display: flex;
-    margin: 2rem;
+    margin: 1.5rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -184,7 +184,7 @@ footer{
     padding: 2rem;
     margin:1rem;
     text-align: center;
-    max-width: 25rem;
+    width: 25rem;
     border-radius: 1rem;
 }
 
@@ -281,4 +281,12 @@ footer{
     font-weight:400;
 }
 
-
+@media screen and (max-width: 450px) {
+    .navigation .link{
+        padding:0
+    }
+    .navigation .nav-pills{
+        text-align:center;
+    }
+    
+}
