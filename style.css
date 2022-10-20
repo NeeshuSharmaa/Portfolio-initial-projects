@@ -19,12 +19,15 @@ body {
     padding: 0px;
     height: 100%
 }
-header{
-    padding:1rem;
+.image-flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 .hero-img{
-    width:550px;
-    max-width: 80%;
+    margin:2rem;
+    border-radius:2rem;
+    max-width:80%;
 }
 .heading-of-page {
     color: black;
@@ -36,9 +39,6 @@ header{
 /* general styling */
 .blue-text{
     color:var(--dark-blue);
-}
-.name {
-    color:var(--primary-color);
 }
 .general-pm{
     margin:0rem 2rem 0rem 2rem;
@@ -94,7 +94,6 @@ header{
 .navigation {
     background-color: black; 
     color: white;
-    width: 100%;
     padding:1rem;
 }
 
@@ -120,8 +119,8 @@ header{
 
 
 .about-para{
-    margin:2rem 2rem 1rem 2rem;
-    padding-top:1rem;
+    margin:2rem 3rem 1rem 3rem;
+    padding-top:1rem 0 1rem 1rem;
     text-align:center;
 }
 
@@ -198,7 +197,8 @@ footer{
 }
 
 #live-project-btn {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image:linear-gradient(5deg, var(--dark-blue), rgb(58, 59, 59));
     color: white;
     padding: 0.5rem 1rem;
     border-radius:1rem;
@@ -229,7 +229,7 @@ footer{
     background-color:var(--light-blue);
     text-align:center;
     margin: 2rem 2rem ;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     
     
 }
@@ -243,12 +243,13 @@ footer{
 }
 .blog-box-blue {
     padding:1rem 3rem 2rem 3rem;
-    background-color:var(--dark-blue);
+    /* background-color:var(--dark-blue); */
+    background-image:linear-gradient(5deg, var(--dark-blue), rgb(58, 59, 59));
     text-align:center;
     margin: 0.4rem 2rem 1rem 2rem ;
     color:white;
     font-weight:300;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     
 }
 
